@@ -39,6 +39,10 @@ nav div ul li{
     font-size: 18px;
     font-weight: 600px;
     color: #006A50;
+    
+}
+.top-btn:hover{
+    background-color: #e6e3e3;
 }
 
 .top-banner{
@@ -169,6 +173,9 @@ nav div ul li{
     margin-top: 15px;
 
 }
+.learn-more1:hover{
+    background-color: #4b81df;
+}
 
 .learn-more2{
     background-color: #09A15C;
@@ -183,6 +190,9 @@ nav div ul li{
     margin-top: 35px;
 
 }
+.learn-more2:hover{
+    background-color: #0b9356;
+}
 
 .learn-more3{
     background-color: #FFC239;
@@ -196,6 +206,9 @@ nav div ul li{
     padding: 11px 20px;
     margin-top: 35px;
 
+}
+.learn-more3:hover{
+    background-color: #f0bc43;
 }
 
 .vision-title{
@@ -217,6 +230,7 @@ nav div ul li{
     font-weight: 400px;
     color: #0E0E0E;opacity: 0.8;
     margin-top: -35px;
+    margin-right: 20px;
 }
 .quote-from{
     font-size: 20px;
@@ -330,4 +344,152 @@ nav div ul li{
 }
 .sat-des{
     margin-top: 0px;
+}
+.donation{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-donation{
+    text-align: center;
+    margin: 0px 200px;
+}
+
+.donation-amount{
+    display: flex;
+    margin: 32px 260px;
+    gap: 30px;
+}
+.donation-taka{
+    height: 90px;
+    width: 252px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border-color: #e8e5e5;
+    font-size: 30px;
+    font-weight: bold; opacity: 0.8;
+    padding: 10px;
+}
+
+.donation-taka:hover{
+    background-color: #C6E4D6;
+}
+.input-tk{
+    text-align: center;
+    justify-content: center;
+    /* margin: 10px 250px; */
+    
+}
+.input-amount{
+    text-align: center;
+    width: 950px;
+    height: 45px;
+    margin-right: 70px;
+    background-color: #FFFFFF;
+    border-color: #e9e4e4;
+    color: #0E0E0E;opacity: 0.5;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.done-btn{
+    /* justify-content: center; */
+    text-align: center;
+}
+.done-now{
+    background-color: #006A50;
+    height: 48px;
+    width: 139px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin-top: 25px;
+}
+
+/* Subscribe Newsletter */
+
+.sub-newsletter{
+    background-color: #C6E4D6;
+    width: 1310px;
+    height: 390px;
+    margin: 45px 160px;
+    padding: 20px;
+    border-radius: 24px;
+}
+.newslett{
+    text-align: center;
+    margin: 0px 330px;
+}
+.Subscription{
+    display: flex;
+    gap: none;
+    justify-content: center;
+    margin-top: 25px;
+    /* width: 100%; */
+    height: 45px;
+}
+.Subscription input[type="email"]{
+    width: 600px;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+.Subscription button{
+    width: 145px;
+    border: none;
+    background-color: #006A50;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Subscription button:hover{
+    background-color: #045843;
+}
+.promise{
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* footer */
+
+.footer-bg{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 145px;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-bd2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hr-line{
+    color: #0E0E0E;opacity: 0.2;
+    width: 70%;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 20px;
+}
+
+/* buttons effects */
+
+.read-more:hover,  .done-now:hover, .click:hover{
+    background-color: #034d3a;
+}
+.select-opt:hover{
+    background-color: #a0cfb9;
 }
